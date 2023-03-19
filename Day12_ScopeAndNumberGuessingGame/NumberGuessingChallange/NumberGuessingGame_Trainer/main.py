@@ -24,8 +24,8 @@ def set_difficulty():
 turns = set_difficulty()
 print(f"You have {turns} attempts remaining to guess the number")
 
-while
-guess = int(input("Make a guess : "))
-check_answer(guess, answer)
+while True:
+    guess = int(input("Make a guess : "))
+    check_answer(guess, answer)
 # track the number of turns and reduce the number by  1 if they get it wrong
 # repeat the guessing functionality if they get it wrong
